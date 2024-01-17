@@ -65,7 +65,7 @@ const EmpDetails = () => {
     const handleButtonFilter = () => {
         const filterItems = empitems.filter(emp => emp.salary >= 85000);
         setEmpitems(filterItems);
-        alert ("Salary is Filter")
+        // alert ("Salary is Filter")
 
     }
 
